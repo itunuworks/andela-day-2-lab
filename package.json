@@ -1,0 +1,26 @@
+{
+  "name": "andela-day-2-lab",
+  "version": "1.0.0",
+  "description": "This repository hold my project labs for day 2. These consist of a TDD based group of functions, all available with their test codes, and a command-line HTTP project implemented to consume a public API.",
+  "main": "main.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Capp/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itunuworks/andela-day-2-lab.git"
+  },
+  "keywords": [
+    "WordCount",
+    "reverseString"
+  ],
+  "author": "Itunuloluwa Fatoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itunuworks/andela-day-2-lab/issues"
+  },
+  "homepage": "https://github.com/itunuworks/andela-day-2-lab#readme",
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
