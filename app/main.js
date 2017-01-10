@@ -21,5 +21,24 @@ module.exports = {
 		}
 
 		return unitWords;
+	}, 
+
+	reverseString: function(inputString){
+		var inputStringArray = inputString.split('');
+		var outputStringArray = [];
+		var outputString = null;
+		var i;
+
+		if (inputString != undefined && inputString != ""){
+			for (i=inputStringArray.length-1; i>=0; i--){
+				outputStringArray.push(inputStringArray[i]);
+			}
+
+			outputString = outputStringArray.join('');
+			if (outputString == inputString){
+				outputString = true;
+			}
+		}
+		return outputString
 	}
 }
