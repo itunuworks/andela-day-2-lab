@@ -16,11 +16,16 @@
   ],
   "author": "Itunuloluwa Fatoki",
   "license": "ISC",
+  "bin": {
+    "geocode": "/Users/Turb/Desktop/Andela/Projects/Labs/2/andela-day-2-lab/cmdapp/geocode.js"
+  },
   "bugs": {
     "url": "https://github.com/itunuworks/andela-day-2-lab/issues"
   },
   "homepage": "https://github.com/itunuworks/andela-day-2-lab#readme",
   "dependencies": {
+    "@google/maps": "^0.3.1",
+    "commander": "^2.9.0",
     "jasmine": "^2.5.2"
   }
 }
